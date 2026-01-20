@@ -1,4 +1,0 @@
-import{r as a,a as d,w as i}from"./index-fbb62ef7.js";import{f,s as l}from"./index8-5de8ebc2.js";(function(){try{var e=typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{},n=new Error().stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="fd6a9a29-153e-4074-a391-5825471ebf55",e._sentryDebugIdIdentifier="sentry-dbid-fd6a9a29-153e-4074-a391-5825471ebf55")}catch{}})();/*!
- * (C) Ionic http://ionicframework.com - MIT License
- */const y=()=>{const e=window;e.addEventListener("statusTap",()=>{a(()=>{const n=e.innerWidth,o=e.innerHeight,s=document.elementFromPoint(n/2,o/2);if(!s)return;const t=f(s);t&&new Promise(r=>d(t,r)).then(()=>{i(async()=>{t.style.setProperty("--overflow","hidden"),await l(t,300),t.style.removeProperty("--overflow")})})})})};export{y as startStatusTap};
-//# sourceMappingURL=status-tap-585896fb.js.map
