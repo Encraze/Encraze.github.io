@@ -1,0 +1,4 @@
+import{a as r}from"./index-05b0cb12.js";(function(){try{var o=typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{},t=new Error().stack;t&&(o._sentryDebugIds=o._sentryDebugIds||{},o._sentryDebugIds[t]="cfaffe06-2259-4d0b-88a7-876d039a3c82",o._sentryDebugIdIdentifier="sentry-dbid-cfaffe06-2259-4d0b-88a7-876d039a3c82")}catch{}})();/*!
+ * (C) Ionic http://ionicframework.com - MIT License
+ */const c="ION-CONTENT",a="ion-content",l=".ion-content-scroll-host",f=`${a}, ${l}`,e=o=>o.tagName===c,d=async o=>e(o)?(await new Promise(t=>r(o,t)),o.getScrollElement()):o,E=o=>o.closest(f),N=(o,t)=>e(o)?o.scrollToTop(t):Promise.resolve(o.scrollTo({top:0,left:0,behavior:t>0?"smooth":"auto"})),u=(o,t,n,s)=>e(o)?o.scrollByPoint(t,n,s):Promise.resolve(o.scrollBy({top:n,left:t,behavior:s>0?"smooth":"auto"}));export{u as a,E as f,d as g,N as s};
+//# sourceMappingURL=index8-5100e3a1.js.map
